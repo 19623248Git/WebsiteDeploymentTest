@@ -1,0 +1,70 @@
+.CircularImage img{
+    border-radius: 100%;
+    width: 10%;
+    height: 10%;
+}
+.CircularImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+header{
+    align-items: center;
+    justify-content: center;
+}
+
+header > h3{
+    text-align: center;
+}
+
+header > p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 600px;
+
+}
+
+.LinkButton{
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.LinkButton a{
+    margin: auto 2%;
+    display: block;
+    background-color: white;
+    width: 90%;
+    border-radius: 180px;
+    padding: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 4px 5px black;
+    transition: 0.3s;
+}
+
+.LinkButton a:hover{
+    width: 96%;
+    background-color: darkviolet;
+    color: white;
+    margin-left: 0%;
+}
+
+body {
+    display: column;
+    background: #FFE4C4  no-repeat;
+    background-size: 100%;
+    font-family: "Comic Neue";
+}
