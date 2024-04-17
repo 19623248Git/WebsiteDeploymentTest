@@ -1,4 +1,3 @@
-# TRYING TO DEPLOY THIS DYNAMIC WEBSITE
-# WISH ME LUCK LOL
+# Testing before implementing on the real website
 
-also to the person reading this i hope you have a great day ahead of you :D
+this was done to test the dynamic properties of express.js with the view engine ejs

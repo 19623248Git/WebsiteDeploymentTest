@@ -4,18 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="/css/stylelinks.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4ec9c01e1c.js" crossorigin="anonymous"></script>
 </head>
+<div class="wrapper">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>   
+</div>
 <body>
     <nav class="navbar">
         <ul>
-            <li id="home"><a href="/tags">Back</a></li>
+            <li><a id="Back" href="/post"><b>Back</b></a></li>
+            <li><a id="home" href="/"><b>Home</b></a></li>
         </ul>
     </nav>
-    <h1><%=name %></h1>
-    <p><%=description %></p>
+    <div class="desc">
+        <h1><%= data.title %></h1>
+        <p><%= data.description %></p>
+    </div>
+    <footer class="bawahh">
+        <ul>
+            <li>
+                <div id="tm"><b>Presented by Kelompok 7</b></div>
+            </li>
+            <li>
+                <div class="logo">
+                    <a id="gh" href="https://github.com/19623248Git"><i class="fa-brands fa-github"></i></a>
+                    <a id="ig" href="https://www.instagram.com/p/CyL092hBr5V/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><i class="fa-brands fa-square-instagram"></i></a>
+                    <a id="dc" href="https://www.youtube.com/watch?v=xvFZjo5PgG0&pp=ygUIcmlja3JvbGw%3D"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>

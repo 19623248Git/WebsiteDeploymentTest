@@ -2,7 +2,7 @@ const express = require('express')
 const fs = require('fs')
 const app = express()
 
-const port = 8000
+
 
 app.set('view engine', 'ejs')
 
@@ -30,13 +30,8 @@ app.get('/', (req, res) => {
     res.render('Home');
 });
 
-app.get('/implementation', (req,res) => {
-    res.render('chatroom');
-});
-
 const tagsRouter = require("./routes/tags")
 
 app.use("/tags", tagsRouter)
 
-// app.listen(8000)
-app.listen(process.env.PORT || port, () => console.log(`listening on port ${port}`))
+app.listen(8000)
